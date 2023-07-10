@@ -1,0 +1,54 @@
+
+@import '~antd/dist/antd.css';
+
+.app {
+    padding:3rem;
+    background-color: #f3f2f7;
+    min-height: 100vh;
+
+    .title{
+      font-weight:700;
+      color:#4e4e4e;
+      font-size:3.5rem;
+    }
+
+    .list-container{
+      border-radius: 40px;
+      padding:3rem;
+      background-color:white;
+
+      .list-item{
+        border-radius: 20px;
+        margin:1rem 0;
+        padding:1.1rem 2rem;
+        
+        .action-button{
+          border:none;
+          margin-right: 1rem;
+        }
+
+        .action-icon{
+          color:white;
+          font-size:1rem;
+        }
+
+        .delete-button{
+          border:none;
+          margin-right: 1rem;
+          background-color: #eb3737;
+        }
+
+        .delete-button-inverted{
+          background-color: white;
+          border:none;
+        }
+        
+      }
+    }
+
+    .add-button{
+      margin-top: 4rem;
+    }
+
+    
+}
